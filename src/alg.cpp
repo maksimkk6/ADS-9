@@ -37,7 +37,7 @@ void dfsPerms(PMNode* node,
     current.pop_back();
   }
 }
-}
+}  // namespace
 
 PMTree::PMTree(const std::vector<char>& elems) {
   alphabet_ = elems;
